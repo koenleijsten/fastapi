@@ -26,6 +26,3 @@ app.include_router(vote.router)
 @app.get("/")
 def root():
     return {"message": "Hello World"}
-
-# PUT need to provide every field to update, PATCH you can only provide one field
-# CRUD API: Create (POST), Read (GET), Update(PUT/PATCH), Delete (DELETE)
